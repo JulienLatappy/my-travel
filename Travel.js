@@ -1,6 +1,6 @@
 import React from "react";
 
-const Quote = ({ destination, country, image, distance}) => (
+const Travel = ({ destination, country, image, distance}) => (
   <figure>
     <img src={image} alt="Sanfrancisco" />
     <figcaption>
@@ -11,4 +11,4 @@ const Quote = ({ destination, country, image, distance}) => (
   </figure>
 );
 
-export default Quote;
+export default Travel;
